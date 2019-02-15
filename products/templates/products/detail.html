@@ -8,7 +8,7 @@
 		<img src="{{ product.icon.url }}"  class="img-fluid" />
 	</div>
 	<div class="col-10">
-		<a href="{{ product.url }}"><h1>{{ product.title }}</h1></a>
+		<a href="{{ product.url }}" target="_blank"><h1>{{ product.title }}</h1></a>
 	</div>
 </div>
 
@@ -27,10 +27,10 @@
 
 <div class="row">
 	<div class="col-4">
-		<h5>Hunted by {{ product.hunter.username }}</h5>
+		<h6><span class="oi oi-person"></span> Hunted by {{ product.hunter.username }}</h6>
 	</div>
 	<div class="col-4 text-right">
-		<h5> {{ product.pub_date_pretty }}</h5>
+		<h6><span class="oi oi-clock"></span> {{ product.pub_date_pretty }}</h6>
 	</div>
 </div>
 
