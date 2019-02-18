@@ -25,8 +25,7 @@ SECRET_KEY = 't-1!dw6-mg!0(b)nof1uo*mu=^6m_0*it0h(e6c35^fm$sk=u('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '206.189.20.110', 'rmwanzia.com', 'www.rmwanzia.com']
-
+ALLOWED_HOSTS = ['localhost', '127.0.0.1']
 
 # Application definition
 
